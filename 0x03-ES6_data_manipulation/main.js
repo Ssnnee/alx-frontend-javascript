@@ -1,3 +1,4 @@
-import getListStudents from "./0-get_list_students.js";
+import createInt8TypedArray from "./5-aggregate_students";
 
-console.log(getListStudents());
+
+console.log(createInt8TypedArray(10, 2, 89));
