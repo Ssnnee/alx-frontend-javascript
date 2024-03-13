@@ -1,4 +1,4 @@
-# alx-frontend-javascript
+# alx frontend JavaScript
 Projects done in alx software engineering short front-end specialization
 
 ## Usage
