@@ -18,6 +18,9 @@ const class2020 = new HolbertonClass(2020, 'San Francisco');
 
 export class StudentHolberton {
   constructor(firstName, lastName, holbertonClass) {
+    if (typeof firstName !== 'string' || typeof lastName !== 'string') {
+      throw new TypeError('First Name and Last Name must be strings');
+    }
     this._firstName = firstName;
     this._lastName = lastName;
 
